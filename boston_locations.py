@@ -52,4 +52,9 @@ boston_locations = [
     'longitude': -71.111333,
     'radius': radius
   },
+  {
+    'latitude': 42.367862,
+    'longitude': -71.101894,
+    'radius': radius
+  },
 ]
