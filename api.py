@@ -7,11 +7,11 @@ from boston_locations import boston_locations
 
 load_dotenv()
 
-endpoint = 'https://api.yelp.com/v3/businesses/search'
-headers = {'Authorization': 'bearer %s' % os.getenv('API_KEY')}
 
+def get_boston_business_ids():
+  endpoint = 'https://api.yelp.com/v3/businesses/search'
+  headers = {'Authorization': 'bearer %s' % os.getenv('API_KEY')}
 
-def get_boston_business_ids(endpoint, headers):
   offset_increment = 50
   total_queries = 0
   total_businesses_retrieved = 0
@@ -69,7 +69,51 @@ def get_boston_business_ids(endpoint, headers):
   print "total queries used: %s" % total_queries
 
 
+def build_categories(categories):
+  return ", ".join([category.get('title') for category in categories])
+
+
+def query_each_business():
+  business_ids = open("all_business_ids.txt").read().splitlines()
+  # test_business_ids = business_ids[1380:]
+  headers = {'Authorization': 'bearer %s' % os.getenv('API_KEY')}
+  count = 0
+
+  # Query each business in our file
+  for business_id in business_ids:
+    endpoint = 'https://api.yelp.com/v3/businesses/%s' % business_id
+    json_object = {}
+
+    # query the business
+    response = requests.get(url=endpoint, headers=headers)
+    business_data = response.json()
+
+    # build up json object
+    json_object['restaurant_id'] = business_data.get('id', None)
+    json_object['restaurant_name'] = business_data.get('name', None)
+    json_object['zip_code'] = business_data.get('location').get('zip_code', None) if business_data.get('location') else None
+    json_object['star_rating'] = business_data.get('rating', None)
+    json_object['num_reviews'] = business_data.get('review_count', None)
+    json_object['cuisine'] = build_categories(business_data.get('categories')) if business_data.get('categories') else None
+    json_object['latitude'] = business_data.get('coordinates').get('latitude', None) if business_data.get('coordinates') else None
+    json_object['longitude'] = business_data.get('coordinates').get('longitude', None) if business_data.get('coordinates') else None
+    json_object['is_closed'] = 1 if business_data.get('is_closed') else 0
+
+    json_entry = json.dumps(json_object) 
+
+    # Append the entry to the file
+    with open("business_data.json", "a") as outfile: 
+      outfile.write("%s\n" % json_entry) 
+    outfile.close()
+
+    # do some counting output
+    count += 1
+    if count % 500 == 0:
+      print "queried so far: %s" % count
+
+
 # Run the query
 if __name__=="__main__": 
-    get_boston_business_ids(endpoint, headers) 
+    # get_boston_business_ids() 
+    query_each_business()
 
