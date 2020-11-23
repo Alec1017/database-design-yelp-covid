@@ -32,7 +32,7 @@ def get_boston_business_ids():
     while offset <= 900:
 
       # query the api with the current offset
-      params = {'latitude': latitude, 'longitude': longitude, 'limit': 50, 'offset': offset}
+      params = {'latitude': latitude, 'longitude': longitude, 'limit': 50, 'offset': offset, 'sort_by': 'distance'}
       response = requests.get(url=endpoint, headers=headers, params=params)
       business_data = response.json()
 
@@ -73,9 +73,13 @@ def build_categories(categories):
   return ", ".join([category.get('title') for category in categories])
 
 
-def query_each_business():
+def query_each_business(start_at=None):
   business_ids = open("all_business_ids.txt").read().splitlines()
-  # test_business_ids = business_ids[1380:]
+
+  if start_at:
+    business_ids = business_ids[start_at:]
+
+  # test_business_ids = business_ids[0:5] 
   headers = {'Authorization': 'bearer %s' % os.getenv('API_KEY')}
   count = 0
 
@@ -98,6 +102,7 @@ def query_each_business():
     json_object['latitude'] = business_data.get('coordinates').get('latitude', None) if business_data.get('coordinates') else None
     json_object['longitude'] = business_data.get('coordinates').get('longitude', None) if business_data.get('coordinates') else None
     json_object['is_closed'] = 1 if business_data.get('is_closed') else 0
+    json_object['transactions'] = ", ".join(business_data.get('transactions')) if business_data.get('transactions') else None
 
     json_entry = json.dumps(json_object) 
 
@@ -114,6 +119,6 @@ def query_each_business():
 
 # Run the query
 if __name__=="__main__": 
-    # get_boston_business_ids() 
+    #get_boston_business_ids() 
     query_each_business()
 
