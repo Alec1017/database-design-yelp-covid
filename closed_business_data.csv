@@ -1,0 +1,80 @@
+cuisine,star_rating,transactions,restaurant_id,longitude,num_reviews,restaurant_name,latitude,is_closed,zip_code
+"American (New), Lounges, Pizza",3.5,"delivery, pickup",BOu8G-QQMOKZRjw79HM-lQ,-71.1044936,502,Bella Luna Restaurant & The Milky Way Lounge,42.3145811,1,02130
+"American (New), Pubs, Breakfast & Brunch",3.0,delivery,VTvZpoW24og2k2t5RRp0Vw,-71.0842514038,281,Lir Irish Pub & Restaurant,42.3485069275,1,02115
+"Bars, American (Traditional), American (New)",3.5,delivery,yJZkJr3Bb5XqqoRDa22o5A,-71.0843353271,1135,The Pour House,42.3484840393,1,02115
+"American (Traditional), Burgers, Beer Bar",3.0,,DuT5BBmKRtcGYQzKkoEiZw,-71.055392,322,Cheers - Faneuil Hall,42.360056,1,02109
+Mexican,3.5,"delivery, pickup",ecubob5HjRKkci4wEuK3ow,-71.125513,583,Anna's Taqueria,42.341357,1,02446
+"Sports Bars, American (Traditional)",3.5,delivery,Cnmw5H0jwJI6mJb5xDDQtA,-71.06098,352,The Four's Restaurant & Sports Bar,42.36498,1,02114
+"Sports Bars, Breakfast & Brunch, Irish",3.5,delivery,dB7dauNiPa4Tx1aIcZGeog,-71.0844268799,361,McGreevy's,42.3484611511,1,02115
+Breakfast & Brunch,3.5,"pickup, delivery",yx4IYpg9MGbrVqNdZwXX_A,-71.09019,1937,The Friendly Toast- Cambridge,42.36657,1,02139
+"Latin American, Italian, Cooking Classes",4.0,"pickup, delivery",3w53096TZI65qMgxhuwc2A,-71.0555801,474,Taranta Cucina Meridionale,42.363031,1,02113
+"Pubs, Music Venues, American (Traditional)",4.5,delivery,ItZXR8qp_WC_v9zuSQGS9w,-71.0993869,162,Bull McCabe's Pub,42.3810112,1,02143
+"Pizza, Italian",3.5,delivery,ljBH1FoYNZ_Ubhfkqvs-Sw,-71.1321027,324,Regina Pizza,42.355996,1,02134
+"Pubs, Burgers, Sandwiches",3.5,delivery,qhz_ypl5rVzP-sJ-7t6ctw,-71.1035370827,310,The Field,42.3657738363,1,02139
+"Pool Halls, Dive Bars, American (Traditional)",3.5,,D-kkOr5VQhdP-FtBFJWUjQ,-71.090659,187,Flat Top Johnny's,42.366525,1,02139
+Italian,4.0,,uiZq2qHtUgYPPOtXW47UTQ,-71.068389,400,Erbaluce,42.350149,1,02116
+Japanese,4.0,delivery,ZIDpQv9y5UWTSE-01hOfVQ,-71.05408,93,Kamakura,42.3594,1,02109
+"Italian, Seafood, Bars",4.0,delivery,5rINmqRcMlJCBR3vwMKbtg,-71.065805,539,Cinquecento,42.342118,1,02118
+"American (Traditional), Pubs, Whiskey Bars",2.5,delivery,h6b_e9Umiau5osfScdR4Ww,-71.0836099,626,Whiskey's Food & Spirits,42.3486,1,02116
+"Japanese, Noodles",4.0,delivery,mCX9XzBLB1y5_OrFASv1mA,-71.12179,145,Love Art Udon,42.35143,1,02215
+"French, Wine Bars, Jazz & Blues",3.5,delivery,trHvcsE3xRS8YcbrDrnSmg,-71.0574668734,445,Les Zygomates,42.3511627811,1,02111
+"Pubs, American (New), Breakfast & Brunch",4.0,delivery,vdO-x0KEP_c-hFB37viK9w,-71.13719,1102,Deep Ellum,42.3539,1,02134
+"Tapas/Small Plates, Wine Bars, Cocktail Bars",4.0,delivery,C7FKNwSUlbUinT9cRSLXHA,-71.0971361,1149,Cuchi Cuchi,42.3634434,1,02139
+"Italian, Wine Bars, Desserts",4.0,delivery,MjpH-uP90jTUp_KqAOiBJg,-71.0725,815,Stella,42.33994,1,02118
+"American (New), Wine Bars",3.5,delivery,Ug6ngfzLT_cPzSttve1OzQ,-71.08252,2277,Top of the Hub,42.347121,1,02199
+"Cocktail Bars, American (Traditional), Tapas/Small Plates",4.0,delivery,A4js3H3Icd45DaaqfD5dQw,-71.0926888883,120,The Automatic Food & Drink,42.3669726402,1,02139
+American (New),4.5,,WkjIWu8rIpAAUhnqsuik9w,-71.131067,189,The Table at Season to Taste,42.398327,1,02140
+"Bars, Burgers, French",3.0,delivery,e9H_iMXVqdcv9oHFCDJagA,-71.0813006,330,Bar Boulud - Boston,42.3487981,1,02199
+"Ice Cream & Frozen Yogurt, Juice Bars & Smoothies, Chocolatiers & Shops",3.0,,7L0x5mPmA_S4mYhu8DnzZw,-71.118922,100,Emack & Bolio's Ice Cream,42.388983,1,02140
+"Latin American, Breakfast & Brunch, Tapas/Small Plates",3.5,"pickup, delivery",6GnCv4YXEvirUy7ZQnyYoQ,-71.069167,1135,Masa,42.346833,1,02116
+"Wine Bars, Steakhouses, Seafood",4.0,delivery,AG1ETqbneinRRJUeA8PfSA,-71.0680537959,679,Flemings Prime Steakhouse & Wine Bar,42.3506967738,1,02116
+American (Traditional),2.5,delivery,xNY7FaGLqXe5opq1hNEFtA,-71.0977787,73,Fenmore Grill,42.3486064,1,02215
+Italian,3.5,"pickup, delivery",j7CMOTyf3WHs8hmbpqiL4A,-71.0705032349,176,Artu,42.3585929871,1,02114
+"Bars, American (Traditional)",3.0,delivery,6UnIw-BrFyNyrDPteYVN5A,-71.0987616,529,Bukowski Tavern,42.373585,1,02139
+"American (New), Burgers, Cocktail Bars",4.0,"delivery, pickup",-pK1SR3blPDEzYKwXk4L5Q,-71.0750068,599,Coda,42.3462394,1,02116
+"Delis, Vietnamese, Sandwiches",4.0,delivery,rc23Eq68aeCsEdYaK1OMiA,-71.0627410509,437,New Saigon Sandwich,42.3511761938,1,02111
+Ice Cream & Frozen Yogurt,4.0,delivery,tIcBn4PgxCPabDyueTthzg,-71.1533080794,124,Abbott's Frozen Custard,42.3489680887,1,02135
+"Pubs, American (Traditional), Irish",3.5,"pickup, delivery",CFgiRwdrG5ENkguBsp2jJg,-71.0881103,113,Conor Larkins Grill & Tap,42.3408864,1,02115
+"Bars, American (New), Gastropubs",3.0,"delivery, pickup",sYTds-4udva4tjxjOToiCA,-71.1002261165,281,Bar Louie,42.3457824743,1,02215
+"Cocktail Bars, American (New)",4.0,delivery,V3gTJw0sjXvXKMRt3vCzmg,-71.09842,86,Wit's End,42.37332,1,02139
+Chicken Shop,3.5,"delivery, pickup",znkU8_QJ4Dksd8XUVjXBcg,-71.046872,183,Fuku Boston Seaport,42.353272,1,02210
+"French, American (New), Cocktail Bars",4.0,"pickup, delivery",5TsjdwNt10gxGChQtGGpdg,-71.0673901927,2054,Gaslight,42.3409677895,1,02118
+"Bars, Southern, Breakfast & Brunch",4.0,"delivery, pickup",YOzva5nTtkQhyPrHErGn7Q,-71.1082798988,196,The Frogmore,42.3225067823,1,02130
+Breakfast & Brunch,3.5,"delivery, pickup",yx4IYpg9MGbrVqNdZwXX_A,-71.09019,1937,The Friendly Toast- Cambridge,42.36657,1,02139
+"Pubs, Burgers, Sandwiches",3.5,delivery,qhz_ypl5rVzP-sJ-7t6ctw,-71.1035370827,310,The Field,42.3657738363,1,02139
+"Lounges, Music Venues, Dive Bars",3.5,delivery,AjUWObAduLvVOQU_HHI9iA,-71.1051712185,220,Cantab Lounge,42.3662095517,1,02139
+"American (Traditional), Gastropubs",3.5,delivery,kxSce-ipaV5GwiN8Ntq2rg,-71.0616226196,587,Stoddard's Fine Food & Ale,42.3552131653,1,02111
+Italian,3.5,delivery,0qdUCUn5GwS3PH5tJNuc-g,-71.0756005347,335,Dante,42.3665857315,1,02142
+"Coffee & Tea, Sandwiches, Breakfast & Brunch",3.5,"pickup, delivery",AHaaxF5ERCuLDvcC6xnQJQ,-71.0748283386,148,Pret A Manger,42.3508484058,1,02116
+"Coffee & Tea, Sandwiches, Salad",3.5,"delivery, pickup",N48l2ZQ_rGsQqCwUsQG7-w,-71.05953,83,Pret a Manger,42.35499,1,02110
+"Coffee & Tea, Breakfast & Brunch, Sandwiches",3.5,"pickup, delivery",ft-u7hmJk2b-UPdZrL55fw,-71.0558673113,14,Pret A Manger,42.3533370577,1,02110
+"Coffee & Tea, Breakfast & Brunch, Sandwiches",3.0,"pickup, delivery",WBNP3SdePh1YSTfVLjVKyw,-71.05561517,2,Pret A Manger,42.35195567,1,02110
+"Coffee & Tea, Sandwiches, Breakfast & Brunch, Cafes",4.0,"delivery, pickup",6Qqz3eQVLJDRELE2Grm-_w,-71.05482,111,Pret A Manger,42.35542,1,02110
+Cafes,3.5,,6Oq2nV3z-DAlgCHp4bZuHg,-71.1074374233,25,Pret A Manger,42.3388815055,1,02215
+"Coffee & Tea, Breakfast & Brunch, Sandwiches",4.5,"pickup, delivery",Xka7oeVkX_ovx7WhdoedNA,-71.10769,12,Pret a Manger,42.339,1,02215
+"Bars, American (New)",3.5,delivery,nlnWODemnfzut10tzC5x3A,-71.0740553751,662,Post 390,42.3488638812,1,02116
+"Breakfast & Brunch, French, Sandwiches",4.5,"pickup, delivery",mJ6wNXXsc5ettMVhrLMv-Q,-71.0597,92,Popover King,42.36384,1,02114
+"American (New), Desserts, Wine Bars",4.0,delivery,Nnz7GwVA51l5uCijP5UAHw,-71.1209747,76,Parsnip Restaurant & Lounge,42.3725045,1,02138
+"Irish, Pubs",4.0,delivery,xjzA4zoZdTpDzENqdd_Plg,-71.1072737,117,O'Leary's Irish Pub and Restaurant,42.3462568,1,02446
+Thai,3.5,"delivery, pickup",rGEsouKJywKQLYmvD2H_1Q,-71.07301,146,House of Siam,42.34291,1,02118
+"Bars, American (Traditional), Seafood",2.5,"pickup, delivery",Rjmow52esfT1_eI6tfCHDQ,-71.0542120957,472,Dick's Last Resort,42.3604098407,1,02109
+Burgers,3.0,delivery,y-GXo1JYDFQwObUXrpxjQg,-71.102731,20,Craigie Burger,42.344685,1,02215
+Singaporean,4.5,"delivery, pickup",uL7PDSmLxPPRMtFjENn9rQ,-71.132788,66,Chic Chick,42.352893,1,02134
+"Bars, American (New), Seafood",3.0,"pickup, delivery",mtG5TI0nPbrty2zf8Gz7Jg,-71.05106,283,Barlow's Restaurant,42.34653,1,02210
+"Korean, Barbeque",3.5,"delivery, pickup",MRR_DEUfKIxWdnQJmzxWhA,-71.125279,108,Misono Grill,42.352353,1,02215
+Japanese Curry,3.5,"delivery, pickup",9ylWOjNH4ldduzaF0FFylA,-71.125425,6,Tonkatsu King,42.352469,1,02134
+"Vegetarian, Vegan, Cafes",4.5,delivery,AS6PcESp0vTPT53RDUFQiQ,-71.1372809,315,Whole Heart Provisions,42.3537846,1,02134
+"Desserts, Caterers, Bakeries",5.0,"pickup, delivery",wyNFqkgseU6yG969FSzO2Q,-71.1380332,29,Brit Bakery,42.3859093,1,02138
+"Spanish, Coffee & Tea, Basque",3.5,delivery,22o_VdMfKA1jjemWwbeujg,-71.11547,182,Cafe Pamplona,42.37175,1,02138
+"Seafood, Bars",3.5,delivery,hW7KINz9iwwmtuiDUNgoPw,-71.1234795497,352,Legal Sea Foods,42.3720188923,1,02138
+"American (Traditional), Lounges, Sports Bars",3.5,"delivery, pickup",uMQDgdKA1prI6NhjPo3Njg,-71.054106,247,Battery Park Bar & Patio,42.357395,1,02110
+"Japanese, Sushi Bars",3.5,"pickup, delivery",sNVX7k89s8L-X4oSN0NIHA,-71.05431,254,Sakura-Bana,42.35798,1,02109
+"Mediterranean, Salad, Pizza",3.5,"delivery, pickup",6dj0t8vx2kdskDMhChLSHQ,-71.0588412149,233,Uno Due Go,42.3544441931,1,02110
+"Breakfast & Brunch, Bakeries",3.5,,r4s5Uv-09mXW3tvyR9ZI5g,-71.06408,6,Swissbakers,42.3665417,1,02114
+"Burgers, Coffee & Tea, Sandwiches",3.0,pickup,K7jF_DHzb6MtGN9vj7zbPg,-71.0552889,113,Cobblestone Cafe,42.3629314,1,02113
+Cafes,4.0,delivery,0UY6UXEedB2_M7vK6pYISQ,-71.099228,379,Neighborhoods Coffee & Crepes,42.343162,1,02215
+"Italian, Chicken Wings, Sandwiches",3.5,"delivery, pickup",6STg6HGBeQ5DV-T9TDpRdA,-71.07027,22,Blackjack Pasta Kitchen,42.34134,1,02118
+"Polish, Hungarian, Wine Bars",4.5,delivery,j4GcfVzq1BCXGoPtNGOtgg,-71.05712,448,Cafe Polonia,42.32878,1,02127
+American (New),4.0,delivery,eFA7z513ckKzfGPROQv0Ww,-71.05291,119,Backyard Betty's,42.34053,1,02127
+"Pubs, Irish",3.0,"pickup, delivery",dv56VSw7tClqOuTYUrOwJw,-71.099647522,547,The Asgard,42.3624687195,1,02139
+"Irish, Irish Pub, American (Traditional)",3.0,delivery,y6K0p0zC7pc2Mc0IjKTJ9Q,-71.091779,372,The Kinsale,42.329775,1,02108

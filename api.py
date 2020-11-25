@@ -117,8 +117,48 @@ def query_each_business(start_at=None, data_file="all_business_ids.txt"):
       print "queried so far: %s" % count
 
 
+def get_review_data(data_file="closed_business_data.json"):
+  business_ids = open(data_file).read().splitlines()
+
+  ids = []
+  for row in business_ids:
+    row = json.loads(row)
+    ids.append(row.get('restaurant_id'))
+
+  # test_business_ids = business_ids[0:5] 
+  headers = {'Authorization': 'bearer %s' % os.getenv('API_KEY')}
+  count = 0
+
+  # Query each business in our file
+  for business_id in ids:
+    endpoint = 'https://api.yelp.com/v3/businesses/%s/reviews' % business_id
+    json_object = {}
+
+    # query the business
+    response = requests.get(url=endpoint, headers=headers)
+    business_data = response.json()
+
+    for review in business_data.get('reviews'):
+      # build up json object
+      json_object['review_id'] = review.get('id', None)
+      json_object['restaurant_id'] = business_id
+      json_object['user_id'] = review.get('user').get('id', None) if review.get('user') else None
+      json_object['star_rating'] = review.get('rating', None)
+      json_object['text'] = review.get('text', None)
+      json_object['time_created'] = review.get('time_created', None)
+
+      json_entry = json.dumps(json_object) 
+
+      # Append the entry to the file
+      with open("closed_business_data_reviews.json", "a") as outfile: 
+        outfile.write("%s\n" % json_entry) 
+      outfile.close()
+
+
+
 # Run the query
 if __name__=="__main__": 
     #get_boston_business_ids() 
-    query_each_business()
+    #query_each_business()
+    get_review_data()
 
