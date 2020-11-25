@@ -73,8 +73,8 @@ def build_categories(categories):
   return ", ".join([category.get('title') for category in categories])
 
 
-def query_each_business(start_at=None):
-  business_ids = open("all_business_ids.txt").read().splitlines()
+def query_each_business(start_at=None, data_file="all_business_ids.txt"):
+  business_ids = open(data_file).read().splitlines()
 
   if start_at:
     business_ids = business_ids[start_at:]
