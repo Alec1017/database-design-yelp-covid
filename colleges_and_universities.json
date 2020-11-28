@@ -1,0 +1,10 @@
+{"college_id": 1, "name": "Boston University", "latitude": 42.34955975, "longitude": -71.09970931, "zipcode": "02215"}
+{"college_id": 2,"name": "Northeastern University", "latitude": 42.3400479, "longitude": -71.08889159, "zipcode": "02115"}
+{"college_id": 3,"name": "Harvard University", "latitude": 42.374443, "longitude": -71.116943, "zipcode": "02138"}
+{"college_id": 4,"name": "MIT", "latitude": 42.362001, "longitude": -71.092003, "zipcode": "02139"}
+{"college_id": 5,"name": "Berklee College of Music", "latitude": 42.34669, "longitude": -71.088705, "zipcode": "02215"}
+{"college_id": 6,"name": "Suffok Univerity", "latitude": 42.358537, "longitude": -71.062277, "zipcode": "02108"}
+{"college_id": 7,"name": "Emerson College", "latitude": 42.351807, "longitude": -71.065994, "zipcode": "02116"}
+{"college_id": 8,"name": "Massachusetts College of Art and Design", "latitude": 42.3364889, "longitude": -71.1022757, "zipcode": "02115"}
+{"college_id": 9,"name": "MCPHS", "latitude": 42.3354819914, "longitude": -71.1008662632, "zipcode": "02115"}
+{"college_id": 10,"name": "Wentworth Institute of Technology", "latitude": 42.336611, "longitude": -71.095019, "zipcode": "02115"}

@@ -1,0 +1,11 @@
+name,zipcode,longitude,latitude,college_id
+Boston University,02215,-71.09970931,42.34955975,1
+Northeastern University,02115,-71.08889159,42.3400479,2
+Harvard University,02138,-71.116943,42.374443,3
+MIT,02139,-71.092003,42.362001,4
+Berklee College of Music,02215,-71.088705,42.34669,5
+Suffok Univerity,02108,-71.062277,42.358537,6
+Emerson College,02116,-71.065994,42.351807,7
+Massachusetts College of Art and Design,02115,-71.1022757,42.3364889,8
+MCPHS,02115,-71.1008662632,42.3354819914,9
+Wentworth Institute of Technology,02115,-71.095019,42.336611,10
